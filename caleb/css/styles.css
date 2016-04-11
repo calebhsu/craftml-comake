@@ -1,0 +1,11 @@
+.logo {
+  position: absolute;
+  height: 36px;
+  left: 0;
+  top: 0;
+  line-height: 2;
+  font-size: 20px;
+  padding: 0;
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
