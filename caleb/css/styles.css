@@ -1,11 +1,29 @@
 .logo {
-  position: absolute;
+  font-size: 20px;
   height: 36px;
   left: 0;
-  top: 0;
   line-height: 2;
-  font-size: 20px;
   padding: 0;
   padding-left: 1em;
   padding-top: 0.5em;
+  position: absolute;
+  top: 0;
+}
+
+.title {
+  background-color: rgba(255,235,238,0.5);
+  display: block;
+  position: absolute;
+  padding: 0.4em 0.6em;
+  top: 0;
+  width: 100%;
+}
+
+.modelName {
+  font-weight: bold;
+}
+
+.user {
+  font-size: 0.8em;
+  line-height: 0em;
 }
