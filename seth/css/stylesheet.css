@@ -1,0 +1,24 @@
+nav {
+    background-color: red;
+}
+
+nav * {
+    color: white;
+}
+
+#rightEndNavBar {
+    margin-right: 5px;
+}
+
+#courseContentArea{
+    padding-top: 50px;
+}
+
+.courseArea {
+    color: white;
+    margin: 0px;
+    height: 300px;
+    border-bottom: 3px solid black;
+    background-size: cover;
+    background-image: url("../images/courseBackgroundExample.jpg");
+}
