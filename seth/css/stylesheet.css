@@ -1,24 +1,36 @@
-nav {
+.topnav {
     background-color: red;
 }
 
-nav * {
+.topnav * {
     color: white;
+}
+
+.bottomnav * {
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 0;
 }
 
 #rightEndNavBar {
     margin-right: 5px;
 }
 
-#courseContentArea{
-    padding-top: 50px;
-}
-
 .courseArea {
     color: white;
     margin: 0px;
     height: 300px;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
     border-bottom: 3px solid black;
     background-size: cover;
     background-image: url("../images/courseBackgroundExample.jpg");
+}
+
+.searchBar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
