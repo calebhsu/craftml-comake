@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+  <link rel="stylesheet" href="style.css"
+
+  <meta charset="utf-8">
+  <title>CraftML CoMake</title>
+</head>
+<body>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">CraftML CoMake</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a id="sub-button">DUMMY ADD</a></li>
+        <li><a >Help</a></li>
+        <li><a >Sign In</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row" id="bodyContent">
+    <div class="col s2" id="sidePanel">
+      <a class="waves-effect waves-light btn modal-trigger" href="#subModal id='subModalButton'">Subscribe to Model</a>
+    </div>
+    <div class="col s10" id="mainConsole">
+      <div class="row">
+        <div class="col s3" id="pic-col-1">
+        </div>
+        <div class="col s3" id="pic-col-2">
+        </div>
+        <div class="col s3" id="pic-col-3">
+        </div>
+        <div class="col s3" id="pic-col-4">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Structure -->
+  <div id="subModal" class="modal open">
+    <div class="modal-content">
+      <h4>Input a URL</h4>
+      <div class="input-field col s6">
+          <input placeholder="craftml.io/ABCD" id="sub_url" type="text" class="validate">
+          <label for="sub_url">URL</label>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a id="sub-button" class=" modal-action modal-close waves-effect waves-green btn-flat">Subscribe</a>
+      <a id="closeModal" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+</body>
+</html>
