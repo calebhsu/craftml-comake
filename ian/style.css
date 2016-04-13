@@ -1,0 +1,21 @@
+body, html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#bodyContent {
+  height: 100vh;
+}
+
+#bodyContent > div{
+  height:100vh;
+}
+
+#sidePanel {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding-top: 15px;
+}
+
+#mainConsole {
+  padding-top: 15px;
+}
