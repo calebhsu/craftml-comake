@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <meta charset="utf-8">
+  <title>CraftML CoMake</title>
+</head>
+<body>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <nav>
+    <div class="nav-wrapper red">
+      <a href="https://craftml.io/" class="logo"><img src="img/craftml.png" alt="CraftML logo"></a>
+      <a class="center brand-logo">C O - M A K E</>
+      <ul class="right">
+        <li><a class="waves-effect waves-light btn modal-trigger red lighten-2" href="#subModal" id="subModalButton">SUBSCRIBE</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Subscribed Models -->
+    <div class="row" id="gallery">
+      <!-- Image Cards Appended Here -->
+    </div> <!-- row -->
+  </main>
+
+  <div id="subModal" class="modal open">
+    <div class="modal-content">
+      <h4>Input a URL</h4>
+      <div class="input-field col s6">
+          <input placeholder="craftml.io/ABCD" id="sub_url" type="text" class="validate">
+          <label for="sub_url">URL</label>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a id="sub-button" class="modal-action modal-close waves-effect waves-red btn-flat">Subscribe</a>
+      <a id="closeModal" class="modal-action modal-close waves-effect waves-red btn-flat">Close</a>
+    </div>
+  </div>
+
+
+</body>
+</html>

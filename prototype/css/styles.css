@@ -1,0 +1,51 @@
+/* Global Styles */
+nav {
+  margin-bottom: 1rem;
+}
+
+
+/* Materialize CSS */
+
+.card .card-reveal {
+  background-color: rgba(244, 244, 244, 1);
+  padding: 0;
+}
+
+.logo {
+  font-size: 20px;
+  height: 36px;
+  left: 0;
+  line-height: 2;
+  padding: 0;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  position: absolute;
+  top: 0;
+}
+
+/* Unique Styles */
+.close {
+  padding: 0.34em;
+}
+
+.code {
+  width: 100%;
+}
+
+.modelName {
+  font-weight: bold;
+}
+
+.title {
+  background-color: rgba(255,235,238,0.5);
+  display: block;
+  position: absolute;
+  padding: 0.4em 0.6em;
+  top: 0;
+  width: 100%;
+}
+
+.user {
+  font-size: 0.8em;
+  line-height: 0em;
+}
