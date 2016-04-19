@@ -3,6 +3,10 @@ nav {
   margin-bottom: 1rem;
 }
 
+#codeModal {
+  height: 75vh;
+}
+
 
 /* Materialize CSS */
 
