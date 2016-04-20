@@ -1,12 +1,11 @@
 /* Global Styles */
+iframe {
+  padding: 1em;
+}
+
 nav {
   margin-bottom: 1rem;
 }
-
-#codeModal {
-  height: 75vh;
-}
-
 
 /* Materialize CSS */
 
@@ -35,6 +34,12 @@ nav {
 .code {
   width: 100%;
 }
+
+#codeModal {
+  height: 80vh;
+  overflow-y: hidden;
+}
+
 
 .modelName {
   font-weight: bold;
