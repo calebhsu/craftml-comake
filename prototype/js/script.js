@@ -4,7 +4,7 @@ $(document).ready(function() {
   $('#sub-button').click(function() {
     $('#gallery').append(
         '<div class="col s4">'
-        +  '<div class="card subscribed-card">'
+        +  '<div class="card subscribed-card" data-url="' + $('#sub_url').val() + '">'
         +     '<div class="modal-trigger card-image waves-effect waves-block waves-light" href="#codeModal">'
         +     '<img src="img/gallery.png">'
         +     '<span class="card-title red-text"><i class="material-icons small">error</i></span>'
@@ -31,6 +31,7 @@ $(document).ready(function() {
   });
 
   $('#gallery').on('click', '.subscribed-card', function() {
+    $('#modelEmbed').attr('src',$(event.target).closest('.subscribed-card').attr("data-url"));
     $('#codeModal').openModal();
     // Input specific information into modal for given card click
   });
